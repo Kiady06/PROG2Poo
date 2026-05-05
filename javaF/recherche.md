@@ -1,0 +1,8 @@
+- Comment faire un tableau en java
+- equivalent de for of java
+- c'est quoi une list ? difference avec les tableaux java classiques
+- comment on installe le framework de test de Java ? (JUnit 5)
+- c'est quoi une HashMap ?
+- c'est quoi stream
+- que veut dure ... .stream().collect(Collectors.toList()) ?
+- c'est quoi l'equivalent des assertions expect / should / assert dans Java ?
