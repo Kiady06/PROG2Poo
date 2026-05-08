@@ -8,6 +8,12 @@ public class Departement {
     String name;
     List<Employee> employees;
 
+    Departement (int id, String name, List<Employee> emps) {
+        this.id = id;
+        this.name = name;
+        this.employees = emps;
+    }
+
     Departement (int id, String name) {
         this.id = id;
         this.name = name;
@@ -21,12 +27,14 @@ public class Departement {
         }
     }
 
-    void addEmployee(Employee emp) {
+    Employee addEmployee(Employee emp) {
         this.employees.add(emp);
+        return  emp;
     }
 
-    void removeEmployee(Employee emp) {
+    Employee removeEmployee(Employee emp) {
         employees.remove(emp);
+        return emp;
     }
 
     int getTotalSalaryDept() {
