@@ -32,10 +32,13 @@ public class Departement {
         return  emp;
     }
 
-    Employee removeEmployee(Employee emp) {
+    void removeEmployee(Employee emp) {
         employees.remove(emp);
-        return emp;
     }
+
+//    void removeEmployeeById(int id) {
+//        employees.removeIf((employee -> e.id == id))
+//    }
 
     int getTotalSalaryDept() {
         int rsl = 0;
